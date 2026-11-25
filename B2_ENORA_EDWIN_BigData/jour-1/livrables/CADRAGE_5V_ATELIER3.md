@@ -1,5 +1,5 @@
 # Atelier 3 — Cadrage des 5V du projet BigData Commerce Analytics
-**Binôme : Enora & Enora** · B2 · Sup de Vinci Rennes · Jour 1 · données collectées le 25/11/2026
+**Binôme : Enora & Edwin** · B2 · Sup de Vinci Rennes · Jour 1 · données collectées le 25/11/2026
 
 ## Chaîne du projet
 Sources (API / CSV) → Collecte Python → Stockage MongoDB (jour 2) → Traitement Spark (jour 2) → Analyse et visualisation (jour 3).

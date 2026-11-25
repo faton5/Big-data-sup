@@ -1,5 +1,5 @@
 # Note de qualité — table `commandes_ecommerce.csv`
-**Binôme : Enora & Enora**
+**Binôme : Enora & Edwin**
 **Atelier 2 · BigData Commerce Analytics (DummyJSON)**
 Source : https://dummyjson.com (carts, products, users) · Collecte du 25/11/2026
 

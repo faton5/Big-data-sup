@@ -1,5 +1,5 @@
 # Synthèse — Atelier 1 : exploration des sources (DummyJSON)
-**Binôme : Enora & Enora**
+**Binôme : Enora & Edwin**
 Collecte du 25/11/2026 · API de démonstration, données fictives
 
 ## Inventaire des ressources

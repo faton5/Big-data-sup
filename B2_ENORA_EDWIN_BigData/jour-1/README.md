@@ -1,5 +1,5 @@
 # Jour 1 — BigData Commerce Analytics (B2 · Sup de Vinci Rennes)
-Binôme : Enora & Enora · Source : DummyJSON · Collecte du 25/11/2026
+Binôme : Enora & Edwin · Source : DummyJSON · Collecte du 25/11/2026
 
 ## Contenu
 - `notebooks/01_atelier_exploration_sources.ipynb` — Atelier 1 (exécuté)
@@ -16,7 +16,7 @@ Binôme : Enora & Enora · Source : DummyJSON · Collecte du 25/11/2026
 # depuis la racine du dépôt
 source venv/bin/activate
 pip install -r requirements.txt
-python B2_ENORA_ENORA_BigData/jour-1/scripts/01_collecte_dummyjson.py
+python B2_ENORA_EDWIN_BigData/jour-1/scripts/01_collecte_dummyjson.py
 ```
 Le script remplit `jour-1/data/raw/` et `jour-1/data/processed/`. Les notebooks se lancent ensuite depuis `jour-1/notebooks/`.
 

@@ -15,7 +15,7 @@ python3 -m venv venv
 source venv/bin/activate
 python -m pip install --upgrade pip
 pip install pandas requests jupyter matplotlib
-python B2_ENORA_ENORA_BigData/jour-1/scripts/01_collecte_dummyjson.py
+python B2_ENORA_EDWIN_BigData/jour-1/scripts/01_collecte_dummyjson.py
 jupyter notebook
 ```
 Sous Windows PowerShell :
@@ -24,13 +24,13 @@ py -m venv venv
 .\venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install pandas requests jupyter matplotlib
-python B2_ENORA_ENORA_BigData/jour-1/scripts/01_collecte_dummyjson.py
+python B2_ENORA_EDWIN_BigData/jour-1/scripts/01_collecte_dummyjson.py
 jupyter notebook
 ```
-Ouvrir ensuite, dans `B2_ENORA_ENORA_BigData/jour-1/notebooks/`, `01_atelier_exploration_sources.ipynb`, puis `02_atelier_profilage_pandas.ipynb`.
+Ouvrir ensuite, dans `B2_ENORA_EDWIN_BigData/jour-1/notebooks/`, `01_atelier_exploration_sources.ipynb`, puis `02_atelier_profilage_pandas.ipynb`.
 
 ## Organisation
-Un dossier par jour, dans `B2_ENORA_ENORA_BigData/` :
+Un dossier par jour, dans `B2_ENORA_EDWIN_BigData/` :
 - `jour-1/` : sources, profilage et 5V (notebooks, livrables, scripts, consignes).
 - `jour-2/` : MongoDB et Spark (à venir).
 - `jour-3/` : sécurité, analyse et restitution (à venir).

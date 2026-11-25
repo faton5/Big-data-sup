@@ -15,7 +15,7 @@ python3 -m venv venv
 source venv/bin/activate
 python -m pip install --upgrade pip
 pip install pandas requests jupyter matplotlib
-python scripts/01_collecte_dummyjson.py
+python B2_ENORA_ENORA_BigData/jour-1/scripts/01_collecte_dummyjson.py
 jupyter notebook
 ```
 Sous Windows PowerShell :
@@ -24,17 +24,18 @@ py -m venv venv
 .\venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install pandas requests jupyter matplotlib
-python scripts/01_collecte_dummyjson.py
+python B2_ENORA_ENORA_BigData/jour-1/scripts/01_collecte_dummyjson.py
 jupyter notebook
 ```
-Ouvrir ensuite `notebooks/01_atelier_exploration_sources.ipynb`, puis `notebooks/02_atelier_profilage_pandas.ipynb`.
+Ouvrir ensuite, dans `B2_ENORA_ENORA_BigData/jour-1/notebooks/`, `01_atelier_exploration_sources.ipynb`, puis `02_atelier_profilage_pandas.ipynb`.
 
 ## Organisation
-- `data/raw/` : réponses JSON brutes et CSV d'exemple hors ligne.
-- `data/processed/` : tables aplaties produites par le script.
-- `scripts/01_collecte_dummyjson.py` : extraction des ressources.
-- `notebooks/` : deux notebooks guidés.
-- `consignes/` : fiche étudiant et barème indicatif.
+Un dossier par jour, dans `B2_ENORA_ENORA_BigData/` :
+- `jour-1/` : sources, profilage et 5V (notebooks, livrables, scripts, consignes).
+- `jour-2/` : MongoDB et Spark (à venir).
+- `jour-3/` : sécurité, analyse et restitution (à venir).
+
+Dans chaque jour, `data/` contient les données et n'est pas versionné (voir `.gitignore`).
 
 ## Sources API étudiées
 - Produits : `https://dummyjson.com/products?limit=0`

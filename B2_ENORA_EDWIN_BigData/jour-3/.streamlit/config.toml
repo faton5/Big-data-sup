@@ -1,0 +1,31 @@
+[client]
+toolbarMode = "viewer"
+showErrorLinks = false
+
+[theme]
+base = "light"
+font = "sans-serif"
+baseRadius = "0.8rem"
+showSidebarBorder = true
+
+[theme.light]
+primaryColor = "#4c61c9"
+backgroundColor = "#f7f8fc"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1c2a43"
+
+[theme.light.sidebar]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f3fb"
+textColor = "#1c2a43"
+
+[theme.dark]
+primaryColor = "#a9bbff"
+backgroundColor = "#101a2b"
+secondaryBackgroundColor = "#1b2a42"
+textColor = "#edf2fc"
+
+[theme.dark.sidebar]
+backgroundColor = "#152239"
+secondaryBackgroundColor = "#23334d"
+textColor = "#edf2fc"

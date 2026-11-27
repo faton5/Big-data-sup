@@ -20,6 +20,8 @@ Depuis le dossier `jour-3` :
 
 Ouvrir **http://127.0.0.1:8501/** et garder le terminal ouvert. Le menu propose une vue d'ensemble, les catégories, les paiements, les clients, l'exploration des données et une présentation guidée. Pour arrêter le serveur : `Ctrl+C` dans le terminal.
 
+La page des catégories montre d'abord les dix principales pour faciliter la lecture ; la case « Afficher toutes les catégories » permet de voir le classement complet. Le tableau de bord dispose d'un thème clair et d'un thème sombre.
+
 Les deux fichiers Parquet doivent déjà avoir été créés par le notebook. Le dashboard n'a pas besoin de MongoDB ou de la clé pour afficher ces fichiers.
 
 ## Relancer le notebook
